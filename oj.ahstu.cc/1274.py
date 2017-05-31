@@ -1,0 +1,1 @@
+print '%d %d %d' % tuple(sorted(map(int, (raw_input().strip().split()))))

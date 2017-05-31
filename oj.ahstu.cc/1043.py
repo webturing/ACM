@@ -1,0 +1,1 @@
+print '%.6f' % sum([1.0 / i ** 2 for i in xrange(1, int(raw_input()) + 1)])  # 计算1/1^2+1/2^2+..1/i^2

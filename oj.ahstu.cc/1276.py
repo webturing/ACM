@@ -1,0 +1,1 @@
+print '%.3f' % (5 * (float(raw_input().strip()) - 32) / 9)
