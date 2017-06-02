@@ -1,13 +1,10 @@
-'''
-BUGS
-'''
 import math
 
 
-def f(x): return math.sqrt(x ** 3)
+def f(x): return 2 * math.sqrt(x ** 3) / 3
 
 
-N = 10
+N = 10000
 while True:
     a, b = map(float, raw_input().strip().split())
     dx = (b - a) / N
